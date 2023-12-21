@@ -372,3 +372,72 @@ body{
         margin-bottom: 2px;
     }
 }
+@media(max-width:950px){
+    .img-konten-1{
+        width: 230px;
+        margin-top: 5px;
+    }
+    .box-container-3{
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-left: -3px;
+    }
+    .box-container-4{
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-left: -3px;
+    }
+    .footer{
+        margin-top: 5px;
+        height: 400px;
+    }
+    .footer-text1{
+        font-size: 16px;
+    }
+    .footer-text2{
+        font-size: 18px;
+        margin-left: 400px;
+        margin-top: -230px;
+    }
+    .footer-text3{
+        font-size: 14px;
+        margin-left: 400px;
+    }
+    .footer-text4{
+        font-size: 14px;
+        margin-top: -60px;
+        margin-left: 23px;
+    }
+    .email{
+        margin-left: 23px;
+        height: 29px;
+    }
+    .footer-text5{
+        margin-left: 23px;
+        font-size: 14px;
+    }
+}
+@media(max-width:767px){
+    .img-konten-1{
+        width: 400px;
+    }
+    .konten-2{
+        margin-top: 340px;
+    }
+}
+@media(max-width:550px){
+    .navbar{
+        width: 600px;
+    }
+    .heading-konten1 p{
+        padding: 10px;
+    }
+    .konten-2{
+        margin-left: 30px;
+        width: 600px;
+    }
+    .footer{
+        width: 600px;
+        align-items: center;
+    }
+}
