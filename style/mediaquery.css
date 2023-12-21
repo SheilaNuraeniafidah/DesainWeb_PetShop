@@ -1,0 +1,364 @@
+@media(max-width:1500px){
+    .konten-1{
+        width: 100%;
+        height: 320px;
+        margin-top: 140px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .konten-6{
+        width: 100%;
+        height: 320px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:976px){
+    .footer{
+        width: 100%;
+        height: 380px;
+        margin-top: 160px;
+    }
+    .footer-text1{
+        font-size: 12px;
+        padding-left: 30px;
+        margin-top: -80px;
+        font-weight: 400;
+        color: black;
+    }
+    .sosmed{
+        width: 20px;
+        height: fit-content;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 25px;
+    }
+    .footer-text2{
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: -10px;
+        margin-top: -220px;
+        margin-left: 400px;
+    }
+    .footer-text3 ul {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+        margin-left: 400px;
+    }
+    .footer-text4{
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-left: 24px;
+    }  
+    .email{
+        border-radius: 10px;
+        height: 37px;
+        margin-left: 18px;
+    }
+    .footer-text5{
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 24px;
+    }
+    .konten-6{
+        width: 100%;
+        height: 320px;
+        margin-top: 80px;
+    }
+    .img-konten6{
+        width: 150px;
+        margin-top: -60px;
+    }
+    .head-konten6{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: -30px;
+        width: 200px;
+    }
+    .para-konten6-a{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        text-align: justify;
+        width: 200px;
+    }
+    .img-konten6-a{
+        width: 300px;
+        padding: 10px;
+        margin-left: 300px;
+        margin-top: -480px;
+    }
+    .img-konten6-b{
+        width: 100px;
+        padding: 0px;
+        margin-top: -50px;
+    }
+    .konten-5{
+        width: 100%;
+        height: 320px;
+        margin-top: 460px;
+    }
+    .content-konten5 img{
+        width: 200px;
+        margin-bottom: 80px;
+    }
+    .head-konten5{
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        text-align: justify;
+        width: 400px;
+        margin-left: 240px;
+        margin-top: -270px;
+    }
+    .para-a{
+        font-size: 14px;
+        font-weight: 400;
+        color: black;
+        text-align: justify;
+        width: 400px;
+        margin-left: 240px;
+    }
+    .home-links-5{
+        margin-top: -5px;
+        margin-left: 240px;
+    }
+    .img-konten5-a{
+        width: 100px;
+        margin-top: -400px;
+        margin-left: 380px;
+    }
+    .img-konten5-b{
+        width: 200px;
+        margin-left: 420px;
+        margin-top: -60px;
+    }
+    .para-b{
+        font-size: 14px;
+        font-weight: 400;
+        color: black;
+        text-align: justify;
+        width: 300px;
+        margin-top: -160px;
+    }
+    .konten-4{
+        width: 100%;
+        height: 320px;
+        margin-top: 260px;
+    }
+    .img-konten-4{
+        margin-left: 295px;
+    }
+    .konten-3{
+        width: 100%;
+        height: 320px;
+        margin-top: 380px;
+    }
+    .konten-2{
+        width: 100%;
+        height: 320px;
+        margin-top: 30px;
+    }
+    .konten-1{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 213, 0);
+        margin-top: 240px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .heading-konten-c{
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    .img-container .img-home1{
+        margin-left: 100px;
+        width: 200px;
+        height: fit-content;
+        margin-top: -200px;
+    }
+    .img-container p{
+        padding: 40px;
+        margin-top: -100px;
+        height: 70px;
+        margin-left: 50px;
+    }
+}
+@media(max-width:767px){
+    .footer{
+        width: fit-content;
+        height: 380px;
+        margin-top: 220px;
+    }
+    .konten-5{
+        width: 100%;
+        height: 320px;
+        margin-top: 460px;
+        padding-right: 20px;
+        margin-right: -70px;
+    }
+    .content-konten5 img{
+        width: 200px;
+        margin-bottom: 80px;
+        margin-right: 80px !important;
+    }
+    .konten-4{
+        width: 100%;
+        height: 320px;
+        margin-top: 350px;
+        align-items: center;
+    }
+    .konten-4 h2{
+        text-align: center !important;
+        font-size: 24px;
+        margin-left: -35px;
+    }
+    .img-konten4-food2{
+        margin-top: -5px;
+        width: 90px;
+    }
+    .img-konten4-food1{
+        margin-top: -5px;
+        width: 90px;
+    }
+    .img-konten-3b{
+        width: 140px;
+        height: fit-content;
+        padding: 10px;
+        background-color: rgb(255, 195, 221);
+        border-radius: 18px;
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+    .img-konten-4{
+        margin-left: 210px;
+    }
+    .konten-1{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 213, 0);
+        margin-top: 640px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .heading-konten-c{
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        width: 450px;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    .img-container{
+        margin-top: 190px;
+    }
+}
+@media(max-width:550px){
+    .footer{
+        width: 700px;
+        margin-bottom: 5px;
+        margin-top: 300px;
+    }
+    .konten-6{
+        width: 100%;
+        height: 320px;
+        margin-top: 60px;
+    }
+    .konten-6 h3{
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-left: 80px;
+        width: 500px;
+    }
+    .head-konten6{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    .para-konten6-a{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .para-konten6-b{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .home-links-5{
+        width: 200px;
+    }
+    .konten-4{
+        width: 100%;
+        height: 320px;
+        margin-top: 300px;
+    }
+    .konten-4 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: -60px;
+        width: 800px;
+    }
+    .heading-konten-4{
+        width: 600px;
+        margin-left: 45px;
+    }
+    .img-konten-4{
+        margin-left: 260px;
+    }
+    .konten-3{
+        margin-top: 180px;
+    }
+    .img-konten-3a{
+        width: 340;
+    }
+    .img-konten-3b{
+        width: 190px;
+        margin-top: -400px;
+        margin-left: 400px;
+    }
+    .konten-2{
+        margin-top: -80px;
+    }
+    .para-layanan{
+        font-size: 13px;
+        font-weight: 500;
+        color: black;
+        height: 20px;
+        width: 500px;
+        margin-left: 20px;
+    }
+    .img-konten-2{
+        margin-right: -300px;
+    }
+    .img-konten-2a{
+        margin-left: 450px;
+        margin-top: -200px;
+    }
+    .konten-1{
+        margin-top: 530px;
+        width: 650px;
+        margin-left: 30px;
+    }
+    .content-home2{
+        width: 600px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .navbar{
+        width: 700px;
+    }
+}
