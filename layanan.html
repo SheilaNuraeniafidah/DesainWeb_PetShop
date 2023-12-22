@@ -152,10 +152,12 @@
             <div class="col-lg-4">
               <img src="aset_dasboard/img/logo-piyow-1-1.png" alt="img-icon">
               <p class="footer-text1">PetShop kami hadir untuk</p>
-              <img src="aset_dasboard/img/facebook.png" alt="img-icon" class="sosmed">
-              <img src="aset_dasboard/img/yt.png" alt="img-icon" class="sosmed">
-              <img src="aset_dasboard/img/ig.png" alt="img-icon" class="sosmed">
-              <img src="aset_dasboard/img/tw.png" alt="img-icon" class="sosmed">
+              <div class="social-media-icons">
+                <img src="aset_dasboard/img/facebook.png" alt="Facebook" class="sosmed">
+                <img src="aset_dasboard/img/yt.png" alt="YouTube" class="sosmed">
+                <img src="aset_dasboard/img/ig.png" alt="Instagram" class="sosmed">
+                <img src="aset_dasboard/img/tw.png" alt="Twitter" class="sosmed">
+              </div>
             </div>
             <div class="col-lg-4">
               <h5 class="footer-text2">Quick Link</h5>
@@ -170,10 +172,11 @@
             </div>
             <div class="col-lg-4">
               <h5 class="footer-text4"> Hubungi kami</h5>
-              <label for="email"></label>
-              <input type="email" class="email" name="email" aria-labelledby="email-label" role="textbox">
-              <button class="btn-submit" type="submit"><i class='bx bx-right-arrow-alt'></i></button>
-              <p class="footer-text5"> contact @Piyow</p>
+              <form class="contact-form" action="#" method="POST">
+                <input type="email" class="email" name="email" placeholder="Email" aria-label="Email" role="textbox">
+                <button class="btn-submit" type="submit"><i class='bx bx-right-arrow-alt'></i></button>
+              </form>
+              <p class="footer-text5">contact @Piyow</p>
             </div>
           </div>
           <hr>
@@ -182,6 +185,7 @@
       </div>
     </div>
   </footer>
+  
   <script src="style_dasboard/dasboard.js" type="module"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
