@@ -48,38 +48,6 @@
   width: 100%;
   overflow: 0;
 }
-@media (min-width: 976px) {
-  .col-lg-4 {
-    width: 33.33%;
-    float: left;
-    text-align: center;
-    
-  }
-}
-@media (max-width: 976px) {
-  .col-lg-4 {
-    width: 100%;
-    text-align: center;
-    background-color: rgb(238, 235, 235);
-    height: 250px;
-
-  .footer {
-    width: 100%;
-    background-color: rgb(238, 235, 235);
-  }
-  .footer-text1,
-  .footer-text2,
-  .footer-text3 ul,
-  .footer-text4,
-  .footer-text5 {
-    text-align: center;
-  }
-  .sosmed {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 .footer-container {
   width: 100%;
 }
@@ -90,7 +58,6 @@
 }
 .container{
   width: 100%;
-  margin: 0 auto;
 }
 
 @media (min-width: 640px){
