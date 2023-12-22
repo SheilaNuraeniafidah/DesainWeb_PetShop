@@ -1,3 +1,44 @@
+.header{
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+}
+.navbar{
+  padding: 5px 8px !important;
+  top: 0;
+  position: sticky;
+  background-color: #fff;
+  z-index: 999;
+  width: 1440px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  backdrop-filter: blur(10px);
+}
+.nav-item{
+  margin: 0px 10px;
+}
+.nav-item .nav-link{
+  position: relative;
+}
+.nav-link:after{
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  background-color:rgb(255, 213, 0) ;
+  width: 0% ;
+  height: 3px;
+  transition: 0.4s ease-in-out;
+}
+.nav-item:hover .nav-link::after{
+  width: 100%;
+}
+.nav-link:hover{
+  color: rgb(255, 213, 0);
+}
+.btn-outline-success:hover{
+  background-color:rgb(255, 213, 0) ;
+  border-color: rgb(255, 213, 0);
+}
 .desktop-layanan {
   display: flex;
   flex-direction: row;
@@ -5,6 +46,56 @@
   justify-content: center;
   width: 100%;
   overflow: 0;
+}
+@media(max-width:976px){
+  .footer{
+      width: 100%;
+      height: 380px;
+      margin-top: 160px;
+  }
+  .footer-text1{
+      font-size: 12px;
+      padding-left: 30px;
+      margin-top: -80px;
+      font-weight: 400;
+      color: black;
+  }
+  .sosmed{
+      width: 20px;
+      height: fit-content;
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 25px;
+  }
+  .footer-text2{
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: -10px;
+      margin-top: -220px;
+      margin-left: 400px;
+  }
+  .footer-text3 ul {
+      list-style: none;
+      padding: 0;
+      font-size: 12px;
+      margin-left: 400px;
+  }
+  .footer-text4{
+      font-size: 14px;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-left: 24px;
+  }  
+  .email{
+      border-radius: 10px;
+      height: 37px;
+      margin-left: 18px;
+  }
+  .footer-text5{
+      font-size: 18px;
+      font-weight: 400;
+      padding-left: 24px;
+  }
 }
 .container{
   width: 100%;
@@ -111,8 +202,8 @@
 .desktop-layanan .overlap-9 {
   position: absolute;
   width: 1001px;
-  height: 420px;
-  top: 300px;
+  height: 340px;
+  top: 230px;
   left: 77px;
 }
 
@@ -188,7 +279,7 @@
 }
 
 .desktop-layanan .text-wrapper-5 {
-  top: 250px;
+  top: 180px;
   left: 77px;
   color: #000000;
   font-size: 70px;
@@ -658,5 +749,101 @@
   top: 0;
   left: 0;
   transition: all 0.2s ease;
+}
+.footer-container{
+  width: 100%;
+}
+.footer{
+  width: 1440px;
+  height: 320px;
+  margin-top: 100px;
+  background-color: rgb(238, 235, 235);
+}
+.footer-text1{
+  font-size: 18px;
+  padding-left: 30px;
+  margin-top: -80px;
+  font-weight: 400;
+  color: black;
+}
+.sosmed{
+  width: 40px;
+  height: fit-content;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: transform 0.3s ease;
+}
+.sosmed:hover{
+  transform: scale(1.1);
+}
+.footer-text2{
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 70px;
+}
+.footer-text3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  margin-right: 20px;
+} 
+.link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  line-height: 30px;
+} 
+.link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 213, 0);
+  transition: width 0.3s ease;
+}  
+.link:hover::before {
+  width: 100%;
+}
+.footer-text4{
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 70px;
+  padding-left: 5px;
+}  
+.email{
+  border-radius: 10px;
+  height: 37px;
+  border-color: rgb(184, 182, 182);
+  box-shadow: 0 10px solid red;
+  border: none;
+}
+.btn-submit{
+  border: rgb(238, 234, 234);
+  padding: 7px;
+  border-radius: 8px;
+  background-color: rgb(186, 184, 184);
+  transition: transform 0.3s ease;
+}
+.btn-submit:hover{
+  background-image: linear-gradient(to right,rgb(182, 227, 244),rgb(233, 228, 227));
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+.footer-text5{
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+.footer-text6{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
 }
 

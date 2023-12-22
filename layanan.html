@@ -4,8 +4,41 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style_layanan.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand logo"><img src="aset_dasboard/img/logo-piyow-1.png" width="200px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Toko</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Tentang Piyow</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="form-search-nav">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--nav akhir-->
     <div class="container">
     <div class="desktop-layanan">
       <div class="div">
@@ -111,5 +144,46 @@
       </div>
     </div>
   </div>
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="aset_dasboard/img/logo-piyow-1-1.png" alt="img-icon">
+              <p class="footer-text1">PetShop kami hadir untuk</p>
+              <img src="aset_dasboard/img/facebook.png" alt="img-icon" class="sosmed">
+              <img src="aset_dasboard/img/yt.png" alt="img-icon" class="sosmed">
+              <img src="aset_dasboard/img/ig.png" alt="img-icon" class="sosmed">
+              <img src="aset_dasboard/img/tw.png" alt="img-icon" class="sosmed">
+            </div>
+            <div class="col-lg-4">
+              <h5 class="footer-text2">Quick Link</h5>
+              <div class="footer-text3">
+                <ul>
+                  <li class="footer-link"><a href="#" class="link">Toko</a></li>
+                  <li class="footer-link"><a href="#" class="link">Layanan</a></li>
+                  <li class="footer-link"><a href="#" class="link">Kontak</a></li>
+                  <li class="footer-link"><a href="#" class="link">Tentang Piyow</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="footer-text4"> Hubungi kami</h5>
+              <label for="email"></label>
+              <input type="email" class="email" name="email" aria-labelledby="email-label" role="textbox">
+              <button class="btn-submit" type="submit"><i class='bx bx-right-arrow-alt'></i></button>
+              <p class="footer-text5"> contact @Piyow</p>
+            </div>
+          </div>
+          <hr>
+          <p class="footer-text6">@2023 piyow All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="style_dasboard/dasboard.js" type="module"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   </body>
 </html>

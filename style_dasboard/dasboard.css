@@ -20,6 +20,8 @@ body{
     position: sticky;
     background-color: #fff;
     z-index: 999;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px);
 }
 .nav-item{
     margin: 0px 10px;
