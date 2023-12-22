@@ -2,13 +2,52 @@
     .konten-1{
         width: 100%;
         height: 320px;
-        margin-top: 140px;
+        margin-top: 40px;
         border-radius: 20px;
         position: relative;
     }
     .konten-6{
         width: 100%;
         height: 320px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:1200px){
+    .konten-1{
+        margin-top: -20px;
+    }
+    .konten-2{
+        flex-direction: column;
+    }
+    .content-konten2{
+        width: 100%;
+    }
+    .img-konten-3b{
+        width: 160px;
+        margin-left: 310px;
+        margin-top: -380px;
+    }
+    .img-konten-2{
+        width: 200px;
+        height: fit-content;
+        margin-top: 100px;
+    }
+    .heading-layanan-2{
+        margin-left: 25px;
+    }
+    .img-konten-2a{
+        margin-left: 25px;
+    }
+    .konten2-links{
+        margin-left: 25px;
+    }
+    .content-konten5 img{
+        width: 300px;
+    }
+    .img-konten6-a{
+        width: 300px;
+    }
+    .footer{
         margin-top: 10px;
     }
 }
@@ -202,6 +241,14 @@
         padding-right: 20px;
         margin-right: -70px;
     }
+    .head-konten5{
+        font-size: 18px;
+        width: 300px;
+    }
+    .para-a{
+        font-size: 14px;
+        width: 300px;
+    }
     .content-konten5 img{
         width: 200px;
         margin-bottom: 80px;
@@ -226,6 +273,9 @@
         margin-top: -5px;
         width: 90px;
     }
+    .konten-2{
+        margin-top: -90px;
+    }
     .img-konten-3b{
         width: 140px;
         height: fit-content;
@@ -242,7 +292,7 @@
         width: 100%;
         height: 400px;
         background-color: rgb(255, 213, 0);
-        margin-top: 640px;
+        margin-top: 480px;
         border-radius: 20px;
         position: relative;
     }
@@ -303,7 +353,7 @@
     .konten-4{
         width: 100%;
         height: 320px;
-        margin-top: 300px;
+        margin-top: 390px;
     }
     .konten-4 h2{
         text-align: center;
@@ -332,6 +382,7 @@
     }
     .konten-2{
         margin-top: -80px;
+        margin-left: 20px;
     }
     .para-layanan{
         font-size: 13px;
@@ -349,7 +400,7 @@
         margin-top: -200px;
     }
     .konten-1{
-        margin-top: 530px;
+        margin-top: 330px;
         width: 650px;
         margin-left: 30px;
     }

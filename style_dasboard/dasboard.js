@@ -1,17 +1,31 @@
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById('form-control me-2');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("navbar-nav");
-    li = ul.getElementsByTagName('nav-item');
-  
-    for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
-      txtValue = a.textContent || a.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
-      } else {
-        li[i].style.display = "none";
-      }
+console.log("masuk ke dasboard.js")
+
+document.getElementById('form-search-nav').addEventListener('submit', (event) => {
+  event.preventDefault()
+  console.log("masuk ke event")
+  const keyword = document.getElementById('form-search-nav').querySelector('input').value
+  console.log(keyword)
+  const data = document.querySelectorAll('.nav-item')
+  let benar;
+
+  data.forEach((element, currentIndex) => {
+    console.log(element.querySelector('a').innerText)
+    if (element.querySelector('a').innerText.toLowerCase() == keyword.toLowerCase()) {
+      console.log(element.querySelector('a').innerText.toLowerCase())
+      console.log(keyword.toLowerCase())
+      benar = currentIndex;
+      // Exit the loop once a match is found
+      return;
+    } else {
+      console.log("gagal ditemukan")
     }
+  });
+  
+  if (benar >= 0 ) {
+    const elementToClick = document.querySelectorAll('.nav-item').item(benar).querySelector(".nav-link");
+    elementToClick.click()
+    console.log(elementToClick);
   }
+  
+  
+})

@@ -81,24 +81,52 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 4px;
+    padding: 3px;
 }
 .heading-about{
     font-size: 34px;
     color: black;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     position: relative;
-    margin-top: 180px;
+    margin-top: 230px;
 }
 .card-product{
-    padding: 14px 10px;
+    padding: 20px 45px;
     background-color: rgb(255, 255, 255);
 }
 .img-card{
     height:190px !important;
+    color: black;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-bottom: 20px !important;
 }
 .card-title{
     font-size: 14px;
+}
+.card-text{
+    font-size: 12px;
+    color: black;
+    line-height: 22px;
+}
+.btn-left{
+    position: relative;
+    left: 20px;
+    padding: 10px 12px;
+    color: black;
+    border-radius: 30px;
+    font-size: 46px;
+    background-color: rgb(255, 213, 0);
+}
+.btn-right{
+    position: relative;
+    right: 20px;
+    padding: 10px 12px;
+    color: black;
+    border-radius: 30px;
+    font-size: 46px;
+    background-color: rgb(255, 213, 0);
 }
 /*footer*/
 .footer-container{
@@ -108,7 +136,7 @@ body{
     width: 100%;
     height: 320px;
     background-color: rgb(238, 235, 235);
-    margin-top: 230px;
+    margin-top: 130px;
 }
 .footer-text1{
     font-size: 18px;
@@ -196,4 +224,42 @@ body{
     font-size: 12px;
     font-weight: 400;
     color: black;
+}
+@media(max-width:1500px){
+    .Tentang-Piyow{
+        margin-top: 40px;
+    }
+}
+@media(max-width:980px){
+    .Tentang-Piyow{
+        margin-top: 500px;
+    }
+    .footer{
+        margin-top: 320px;
+        height: 400px;
+    }
+    .footer-text1{
+        font-size: 14px;
+    }
+    .footer-text2{
+        font-size: 16px;
+        margin-left: 400px;
+        margin-top: -230px;
+    }
+    .footer-text3{
+        font-size: 14px;
+        margin-left: 400px;
+    }
+    .footer-text4{
+        font-size: 14px;
+        margin-left: 25px;
+        margin-top: -57px;
+    }
+    .email{
+        margin-left: 25px;
+        height: 30px;
+    }
+    .footer-text5{
+        margin-left: 25px;
+    }
 }
