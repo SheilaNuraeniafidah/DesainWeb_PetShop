@@ -2,8 +2,10 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  overflow: 0;
 }
 .container{
   width: 100%;
@@ -49,7 +51,7 @@
 }
 .desktop-toko .text-wrapper-1 {
   position: absolute;
-  top: 159px;
+  top: 320px;
   left: 77px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
@@ -58,110 +60,10 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.desktop-toko .overlap-1 {
-  position: absolute;
-  width: 333px;
-  height: 54px;
-  top: 573px;
-  left: 77px;
-  background-image: url(./img/rectangle-658.png);
-  background-size: 100% 100%;
-}
-.desktop-toko .overlap-2 {
-  position: absolute;
-  width: 36px;
-  height: 41px;
-  top: 6px;
-  left: 271px;
-}
-.desktop-toko .ellipse-1 {
-  position: absolute;
-  width: 36px;
-  height: 35px;
-  top: 4px;
-  left: 0;
-  background-color: #ffffff;
-  border-radius: 18px/17.5px;
-}
-.desktop-toko .text-wrapper-2 {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 35px;
-  letter-spacing: 6;
-  line-height: normal;
-}
-.desktop-toko .text-wrapper-3 {
-  position: absolute;
-  top: 6px;
-  left: 36px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 27px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-.desktop-toko .overlap-71 {
-  position: absolute;
-  width: 333px;
-  height: 54px;
-  top: 659px;
-  left: 77px;
-  background-image: url(./img/rectangle-659.png);
-  background-size: 100% 100%;
-}
-
-.desktop-toko .overlap-3 {
-  position: absolute;
-  width: 333px;
-  height: 54px;
-  top: 573px;
-  left: 450px;
-  background-image: url(./img/rectangle-660.png);
-  background-size: 100% 100%;
-}
-.desktop-toko .overlap-4 {
-  position: absolute;
-  width: 36px;
-  height: 41px;
-  top: 6px;
-  left: 281px;
-}
-.desktop-toko .text-wrapper-4 {
-  position: absolute;
-  top: 6px;
-  left: 38px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 27px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-.desktop-toko .overlap-5 {
-  position: absolute;
-  width: 333px;
-  height: 54px;
-  top: 659px;
-  left: 450px;
-  background-image: url(./img/rectangle-661.png);
-  background-size: 100% 100%;
-}
-.desktop-toko .overlap-6 {
-  position: absolute;
-  width: 36px;
-  height: 41px;
-  top: 7px;
-  left: 281px;
-}
 .desktop-toko .overlap-7 {
   position: absolute;
   width: 1344px;
-  height: 574px;
+  height: 350px;
   top: 201px;
   left: 77px;
 }
@@ -224,50 +126,12 @@
 .desktop-toko .belanja-online {
   position: absolute;
   width: 769px;
-  top: 98px;
+  top: 250px;
   left: 0;
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 22px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-.desktop-toko .rectangle-3 {
-  position: absolute;
-  width: 492px;
-  height: 62px;
-  top: 0;
-  left: 798px;
-}
-
-.desktop-toko .ellipse {
-  position: absolute;
-  width: 47px;
-  height: 48px;
-  top: 7px;
-  left: 1234px;
-  background-color: #0fb8ff;
-  border-radius: 23.5px/24px;
-}
-.desktop-toko .icon-search {
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  top: 18px;
-  left: 1245px;
-  object-fit: cover;
-}
-
-.desktop-toko .text-wrapper-5 {
-  position: absolute;
-  width: 234px;
-  top: 12px;
-  left: 816px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 500;
-  color: #c1c1c1;
-  font-size: 23px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -1289,6 +1153,11 @@
   top: 7px;
   left: 19px;
   object-fit: cover;
+}
+.produkVitamin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .desktop-toko .overlap-63 {
   position: absolute;

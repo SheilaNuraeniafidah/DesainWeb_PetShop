@@ -1,0 +1,1284 @@
+.desktop-toko {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  overflow: 0;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+.desktop-toko .element-5 {
+  width: 57px;
+  height: 57px;
+  top: 200px;
+  left: 704px;
+  position: absolute;
+  object-fit: cover;
+}
+.desktop-toko .text-wrapper-1 {
+  position: absolute;
+  top: 320px;
+  left: 77px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .overlap-7 {
+  position: absolute;
+  width: 1344px;
+  height: 350px;
+  top: 201px;
+  left: 77px;
+}
+
+.desktop-toko .rectangle-1 {
+  position: absolute;
+  width: 272px;
+  height: 300px;
+  top: 249px;
+  left: 798px;
+  background-color: #ffdc46;
+  border-radius: 25px;
+}
+
+.desktop-toko .rectangle-2 {
+  position: absolute;
+  width: 250px;
+  height: 281px;
+  top: 99px;
+  left: 1044px;
+  background-color: #ffc9cc;
+  border-radius: 25px;
+}
+
+.desktop-toko .element {
+  position: absolute;
+  width: 284px;
+  height: 283px;
+  top: 291px;
+  left: 1060px;
+  object-fit: cover;
+}
+
+.desktop-toko .element-2 {
+  width: 254px;
+  height: 245px;
+  top: 114px;
+  left: 1060px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop-toko .element-3 {
+  position: absolute;
+  width: 349px;
+  height: 349px;
+  top: 200px;
+  left: 767px;
+  object-fit: cover;
+}
+
+.desktop-toko .element-4 {
+  position: absolute;
+  width: 229px;
+  height: 229px;
+  top: 46px;
+  left: 896px;
+  object-fit: cover;
+}
+.desktop-toko .belanja-online {
+  position: absolute;
+  width: 769px;
+  top: 250px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .overlap-8 {
+  position: absolute;
+  width: 769px;
+  height: 148px;
+  top: 818px;
+  left: 75px;
+}
+.desktop-toko .temukan-produk {
+  position: absolute;
+  width: 769px;
+  top: 78px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .overlap-9 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 1006px;
+  left: 81px;
+}
+.desktop-toko .rectangle-4 {
+  position: absolute;
+  width: 229px;
+  height: 327px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #d9d9d9;
+}
+.desktop-toko .desk-dan-harga-1 {
+  position: absolute;
+  width: 219px;
+  height: 124px;
+  top: 179px;
+  left: 13px;
+}
+.desktop-toko .text-wrapper-7 {
+  position: absolute;
+  width: 213px;
+  top: 18px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .div-3 {
+  top: 67px;
+  position: absolute;
+  width: 71px;
+  height: 14px;
+  left: 0;
+}
+.desktop-toko .star-5 {
+  width: 13px;
+  left: 0;
+  position: absolute;
+  height: 13px;
+  top: 0;
+}
+
+.desktop-toko .star-6 {
+  position: absolute;
+  width: 14px;
+  height: 13px;
+  top: 0;
+  left: 14px;
+}
+.desktop-toko .star-3 {
+  width: 13px;
+  left: 29px;
+  position: absolute;
+  height: 13px;
+  top: 0;
+}
+
+.desktop-toko .star-4 {
+  width: 13px;
+  left: 43px;
+  position: absolute;
+  height: 13px;
+  top: 0;
+}
+
+.desktop-toko .star-7 {
+  width: 13px;
+  left: 57px;
+  position: absolute;
+  height: 13px;
+  top: 0;
+}
+
+.desktop-toko .text-wrapper-10 {
+  position: absolute;
+  top: 67px;
+  left: 77px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #c1c1c1;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .div-2 {
+  top: 97px;
+  position: absolute;
+  width: 195px;
+  height: 27px;
+  left: 4px;
+  transition: transform 0.3s;
+}
+.desktop-toko .div-2 :hover {
+  transform: scale(1.1);
+}
+.desktop-toko .overlap-group {
+  background-image: url(./img/rectangle-664.png);
+  position: relative;
+  width: 193px;
+  height: 27px;
+  background-size: 100% 100%;
+}
+.desktop-toko .text-wrapper-11 {
+  position: absolute;
+  top: 4px;
+  left: 62px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .icon-shop {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 4px;
+  left: 34px;
+  object-fit: cover;
+}
+.desktop-toko .makanan-12 {
+  position: absolute;
+  width: 161px;
+  height: 162px;
+  top: 14px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.desktop-toko .overlap-11 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 1006px;
+  left: 610px;
+}
+.desktop-toko .desk-dan-harga-11 {
+  position: absolute;
+  width: 219px;
+  height: 124px;
+  top: 179px;
+  left: 14px;
+}
+.desktop-toko .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .overlap-59 {
+  position: absolute;
+  width: 199px;
+  height: 57px;
+  top: 67px;
+  left: 0;
+}
+.desktop-toko .rate-bintang-6 {
+  top: 0;
+  position: absolute;
+  width: 71px;
+  height: 14px;
+  left: 0;
+}
+.desktop-toko .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 77px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #c1c1c1;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop-toko .overlap-group-wrapper {
+  top: 30px;
+  position: absolute;
+  width: 195px;
+  height: 27px;
+  left: 4px;
+}
+.desktop-toko .desk-dan-harga-30 {
+  position: absolute;
+  width: 197px;
+  height: 57px;
+  top: 0;
+  left: 0;
+}
+.desktop-toko .makanan-13 {
+  position: absolute;
+  width: 166px;
+  height: 166px;
+  top: 13px;
+  left: 27px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-12 {
+  position: absolute;
+  width: 233px;
+  height: 338px;
+  top: 995px;
+  left: 1140px;
+}
+
+.desktop-toko .produkmakan {
+  position: absolute;
+  width: 143px;
+  height: 171px;
+  top: 0;
+  left: 44px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-72 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 1006px;
+  left: 342px;
+}
+.desktop-toko .asset-web {
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  top: 10px;
+  left: 34px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-10 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 1006px;
+  left: 873px;
+}
+.desktop-toko .makanan-11 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 15px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-13 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 1375px;
+  left: 79px;
+}
+.desktop-toko .makanan-10 {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: 10px;
+  left: 32px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-14 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 1375px;
+  left: 340px;
+}
+.desktop-toko .makanan-9 {
+  position: absolute;
+  width: 177px;
+  height: 165px;
+  top: 10px;
+  left: 29px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-15 {
+  position: absolute;
+  width: 233px;
+  height: 329px;
+  top: 1373px;
+  left: 608px;
+}
+.desktop-toko .makanan-8 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 0;
+  left: 18px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-16 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 1375px;
+  left: 871px;
+}
+.desktop-toko .makanan-7 {
+  position: absolute;
+  width: 151px;
+  height: 180px;
+  top: 7px;
+  left: 48px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-17 {
+  position: absolute;
+  top: 1375px;
+  left: 1138px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #d9d9d9;
+}
+.desktop-toko .makanan-6 {
+  position: absolute;
+  width: 163px;
+  height: 163px;
+  top: 10px;
+  left: 34px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-18 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 1739px;
+  left: 79px;
+}
+.desktop-toko .makanan-5 {
+  position: absolute;
+  width: 163px;
+  height: 168px;
+  top: 8px;
+  left: 28px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-19 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 1739px;
+  left: 340px;
+}
+.desktop-toko .makanan-4 {
+  position: absolute;
+  width: 185px;
+  height: 185px;
+  top: 0;
+  left: 23px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-20 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 1739px;
+  left: 608px;
+}
+.desktop-toko .makanan-3 {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  top: 8px;
+  left: 28px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-21 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 1739px;
+  left: 871px;
+}
+.desktop-toko .makanan-2 {
+  position: absolute;
+  width: 171px;
+  height: 171px;
+  top: 8px;
+  left: 28px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-22 {
+  position: absolute;
+  top: 1739px;
+  left: 1138px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #d9d9d9;
+}
+.desktop-toko .makanan {
+  position: absolute;
+  width: 202px;
+  height: 190px;
+  top: -2px;
+  left: 16px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-23 {
+  position: absolute;
+  width: 232px;
+  height: 334px;
+  top: 2296px;
+  left: 77px;
+}
+.desktop-toko .vitamin-15 {
+  position: absolute;
+  width: 198px;
+  height: 197px;
+  top: 0;
+  left: 5px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-24 {
+  position: absolute;
+  width: 769px;
+  height: 148px;
+  top: 2115px;
+  left: 75px;
+}
+.desktop-toko .overlap-25 {
+  position: absolute;
+  width: 234px;
+  height: 336px;
+  top: 2294px;
+  left: 338px;
+}
+.desktop-toko .vitamin-14 {
+  position: absolute;
+  width: 203px;
+  height: 193px;
+  top: 0;
+  left: 16px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-26 {
+  position: absolute;
+  width: 233px;
+  height: 330px;
+  top: 2300px;
+  left: 606px;
+}
+.desktop-toko .vitamin-13 {
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  top: 0;
+  left: 19px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-27 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 2303px;
+  left: 869px;
+}
+.desktop-toko .vitamin-12 {
+  position: absolute;
+  width: 178px;
+  height: 179px;
+  top: 4px;
+  left: 21px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-28 {
+  position: absolute;
+  top: 2303px;
+  left: 1136px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #d9d9d9;
+}
+.desktop-toko .vitamin-11 {
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  top: 9px;
+  left: 19px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-29 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 2672px;
+  left: 75px;
+}
+.desktop-toko .vitamin-10 {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  top: 15px;
+  left: 42px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-30 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 2672px;
+  left: 336px;
+}
+.desktop-toko .vitamin-9 {
+  position: absolute;
+  width: 174px;
+  height: 187px;
+  top: 0;
+  left: 26px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-31 {
+  position: absolute;
+  width: 233px;
+  height: 330px;
+  top: 2669px;
+  left: 604px;
+}
+.desktop-toko .vitamin-8 {
+  position: absolute;
+  width: 194px;
+  height: 195px;
+  top: 0;
+  left: 16px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-32 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 2672px;
+  left: 867px;
+}
+.desktop-toko .vitamin-7 {
+  position: absolute;
+  width: 166px;
+  height: 166px;
+  top: 15px;
+  left: 36px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-33 {
+  position: absolute;
+  width: 229px;
+  height: 328px;
+  top: 2671px;
+  left: 1134px;
+}
+.desktop-toko .vitamin-6 {
+  position: absolute;
+  width: 202px;
+  height: 202px;
+  top: 0;
+  left: 9px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-34 {
+  position: absolute;
+  width: 232px;
+  height: 328px;
+  top: 3035px;
+  left: 75px;
+}
+.desktop-toko .vitamin-5 {
+  position: absolute;
+  width: 174px;
+  height: 180px;
+  top: 0;
+  left: 17px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-35 {
+  position: absolute;
+  width: 1027px;
+  height: 327px;
+  top: 3036px;
+  left: 336px;
+}
+.desktop-toko .vitamin-4 {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  top: 11px;
+  left: 33px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-36 {
+  position: absolute;
+  width: 233px;
+  height: 330px;
+  top: 3036px;
+  left: 604px;
+}
+.desktop-toko .vitamin-3 {
+  position: absolute;
+  width: 190px;
+  height: 189px;
+  top: 1px;
+  left: 25px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-37
+ {
+  position: absolute;
+  width: 233px;
+  height: 330px;
+  top: 3036px;
+  left: 867px;
+}
+.desktop-toko .vitamin-2 {
+  position: absolute;
+  width: 190px;
+  height: 189px;
+  top: 1px;
+  left: 27px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-38
+ {
+  position: absolute;
+  width: 233px;
+  height: 330px;
+  top: 3036px;
+  left: 1134px;
+}
+.desktop-toko .vitamin {
+  position: absolute;
+  width: 190px;
+  height: 189px;
+  top: 1px;
+  left: 25px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-39 {
+  position: absolute;
+  width: 769px;
+  height: 148px;
+  top: 3422px;
+  left: 75px;
+}
+.desktop-toko .overlap-40 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 3610px;
+  left: 77px;
+}
+.desktop-toko .aksessoris-15 {
+  position: absolute;
+  width: 172px;
+  height: 171px;
+  top: 8px;
+  left: 27px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-41 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 3610px;
+  left: 338px;
+}
+.desktop-toko .aksessoris-14 {
+  position: absolute;
+  width: 172px;
+  height: 162px;
+  top: 9px;
+  left: 29px;
+}
+.desktop-toko .overlap-42 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 3610px;
+  left: 606px;
+}
+.desktop-toko .aksessoris-13 {
+  position: absolute;
+  width: 171px;
+  height: 172px;
+  top: 7px;
+  left: 36px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-43 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 3610px;
+  left: 869px;
+}
+.desktop-toko .aksessoris-12 {
+  position: absolute;
+  width: 172px;
+  height: 171px;
+  top: 7px;
+  left: 28px;
+}
+.desktop-toko .overlap-44 {
+  position: absolute;
+  width: 229px;
+  height: 327px;
+  top: 3610px;
+  left: 1136px;
+}
+.desktop-toko .aksessoris-11 {
+  position: absolute;
+  width: 171px;
+  height: 171px;
+  top: 6px;
+  left: 27px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-45 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 3979px;
+  left: 75px;
+}
+.desktop-toko .aksessoris-10 {
+  position: absolute;
+  width: 183px;
+  height: 162px;
+  top: 13px;
+  left: 22px;
+}
+.desktop-toko .overlap-46 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 3979px;
+  left: 336px;
+}
+.desktop-toko .aksessoris-9 {
+  position: absolute;
+  width: 171px;
+  height: 171px;
+  top: 9px;
+  left: 32px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-47 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 3979px;
+  left: 604px;
+}
+.desktop-toko .aksessoris-8 {
+  position: absolute;
+  width: 172px;
+  height: 172px;
+  top: 9px;
+  left: 31px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-48 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 3979px;
+  left: 867px;
+}
+.desktop-toko .aksessoris-7 {
+  position: absolute;
+  width: 172px;
+  height: 171px;
+  top: 8px;
+  left: 29px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-49 {
+  position: absolute;
+  width: 229px;
+  height: 335px;
+  top: 3971px;
+  left: 1134px;
+}
+.desktop-toko .aksessoris-6 {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  top: 0;
+  left: 16px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-50 {
+  position: absolute;
+  width: 244px;
+  height: 361px;
+  top: 4350px;
+  left: 75px;
+}
+.desktop-toko .aksessoris-5 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 30px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-51 {
+  position: absolute;
+  width: 244px;
+  height: 361px;
+  top: 4350px;
+  left: 336px;
+}
+.desktop-toko .aksessoris-4 {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 0px;
+  left: 10px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-52 {
+  position: absolute;
+  width: 244px;
+  height: 361px;
+  top: 4350px;
+  left: 604px;
+}
+.desktop-toko .aksessoris-3 {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  top: 0px;
+  left: 28px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-53 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 4350px;
+  left: 867px;
+}
+.desktop-toko .aksessoris-2 {
+  position: absolute;
+  width: 180px;
+  height: 181px;
+  top: 0px;
+  left: 29px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-54 {
+  position: absolute;
+  width: 255px;
+  height: 355px;
+  top: 4350px;
+  left: 1134px;
+}
+.desktop-toko .aksessoris {
+  position: absolute;
+  width: 170px;
+  height: 171px;
+  top: 0;
+  left: 25px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-55 {
+  position: absolute;
+  width: 769px;
+  height: 148px;
+  top: 4732px;
+  left: 75px;
+}
+.desktop-toko .overlap-56 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 4920px;
+  left: 77px;
+}
+.desktop-toko .shampo-15 {
+  position: absolute;
+  width: 173px;
+  height: 173px;
+  top: 6px;
+  left: 35px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-57 {
+  position: absolute;
+  width: 234px;
+  height: 342px;
+  top: 4920px;
+  left: 338px;
+}
+.desktop-toko .shampo-14 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 25px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-58 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 4920px;
+  left: 606px;
+}
+.desktop-toko .shampo-13 {
+  position: absolute;
+  width: 204px;
+  height: 204px;
+  top: 0;
+  left: 12px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-59 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 4920px;
+  left: 869px;
+}
+.desktop-toko .shampo-12 {
+  position: absolute;
+  width: 173px;
+  height: 171px;
+  top: 7px;
+  left: 28px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-60 {
+  position: absolute;
+  width: 233px;
+  height: 327px;
+  top: 4920px;
+  left: 1136px;
+}
+.desktop-toko .shampo-11 {
+  position: absolute;
+  width: 180px;
+  height: 176px;
+  top: 6px;
+  left: 21px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-61 {
+  position: absolute;
+  width: 232px;
+  height: 327px;
+  top: 5289px;
+  left: 75px;
+}
+.desktop-toko .shampo-10 {
+  position: absolute;
+  width: 178px;
+  height: 179px;
+  top: 0;
+  left: 13px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-62 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 5289px;
+  left: 336px;
+}
+.desktop-toko .shampo-9 {
+  position: absolute;
+  width: 174px;
+  height: 172px;
+  top: 7px;
+  left: 19px;
+  object-fit: cover;
+}
+.produkVitamin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.desktop-toko .overlap-63 {
+  position: absolute;
+  width: 233px;
+  height: 335px;
+  top: 5281px;
+  left: 604px;
+}
+.desktop-toko .shampo-8 {
+  position: absolute;
+  width: 187px;
+  height: 187px;
+  top: 0;
+  left: 14px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-64 {
+  position: absolute;
+  width: 233px;
+  height: 337px;
+  top: 5279px;
+  left: 867px;
+}
+.desktop-toko .shampo-7 {
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  top: 0;
+  left: 9px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-65 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 5279px;
+  left: 1134px;
+}
+.desktop-toko .shampo-6 {
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  top: 10px;
+  left: 34px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-66 {
+  position: absolute;
+  width: 232px;
+  height: 341px;
+  top: 5639px;
+  left: 75px;
+}
+.desktop-toko .shampo-5 {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  top: 0;
+  left: 9px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-67 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 5639px;
+  left: 336px;
+}
+.desktop-toko .shampo-4 {
+  position: absolute;
+  width: 174px;
+  height: 172px;
+  top: 7px;
+  left: 19px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-68 {
+  position: absolute;
+  width: 233px;
+  height: 335px;
+  top: 5639px;
+  left: 604px;
+}
+.desktop-toko .shampo-3 {
+  position: absolute;
+  width: 187px;
+  height: 187px;
+  top: 0;
+  left: 14px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-69 {
+  position: absolute;
+  width: 220px;
+  height: 180px;
+  top: 5639px;
+  left: 867px;
+}
+.desktop-toko .shampo-2 {
+  position: absolute;
+  width: 170px;
+  height: 160px;
+  top: 0;
+  left: 29px;
+  object-fit: cover;
+}
+.desktop-toko .overlap-70 {
+  position: absolute;
+  width: 234px;
+  height: 327px;
+  top: 5639px;
+  left: 1134px;
+}
+.desktop-toko .shampo {
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  top: 10px;
+  left: 34px;
+  object-fit: cover;
+}
+
+
+
