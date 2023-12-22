@@ -263,3 +263,36 @@ body{
         margin-left: 25px;
     }
 }
+@media(max-width:767px){
+    .heading-konten1 p{
+        font-size: 14px;
+    }
+    .Tentang-Piyow{
+        margin-top: 860px;
+    }
+    .card-product{
+        width: 460px;
+    }
+    .footer{
+        margin-top: 430px;
+    }
+    .footer-text4{
+        margin-top: -90px;
+    }
+}
+@media(max-width:580px){
+    .navbar{
+        width: 650px;
+    }
+    .heading-about{
+        font-size: 24px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    .footer{
+        width: 630px;
+    }
+    .footer-text4{
+        margin-top: -52px;
+    }
+}
